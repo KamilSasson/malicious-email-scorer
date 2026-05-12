@@ -1,4 +1,4 @@
-# Malicious Email Scorer  
+# Malicious Email Scorer
 
 ## Overview
 
@@ -114,7 +114,7 @@ Gmail Add-on frontend built with Google Apps Script.
 - `code.gs` — Main add-on logic and Gmail integration
 - `appsscript.json` — Google Apps Script configuration
 
-## Setup & Run
+## ## Setup & Run
 
 ### Backend
 
@@ -126,7 +126,7 @@ cd backend
 
 ```
 
-1. Install dependencies:
+2. Install dependencies:
 
 ```bash
 
@@ -134,7 +134,7 @@ npm install
 
 ```
 
-1. Start the backend server:
+3. Start the backend server:
 
 ```bash
 
@@ -146,11 +146,22 @@ The backend is hosted using Render.
 
 ### Frontend
 
-1. Open Google Apps Script
-2. Create a new Gmail Add-on project
-3. Copy the contents of `frontend/code.gs`
-4. Copy the contents of `frontend/appsscript.json`
-5. Update the backend API URL if needed
+1. Open Google Apps Script  
+
+2. Create a new Gmail Add-on project  
+
+3. Copy the contents of `frontend/code.gs`  
+
+4. Copy the contents of `frontend/appsscript.json`  
+
+5. Configure the backend API URL inside `code.gs`:
+
+```javascript
+
+const BACKEND_URL = "[https://upwind-bootcamp-backend.onrender.com/api/v1/analyze-email](https://upwind-bootcamp-backend.onrender.com/api/v1/analyze-email)";
+
+```
+
 6. Deploy the add-on and connect it to a Gmail account
 
 ## Future Improvements
