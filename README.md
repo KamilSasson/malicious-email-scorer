@@ -169,11 +169,6 @@ const BACKEND_URL = "[https://upwind-bootcamp-backend.onrender.com/api/v1/analyz
 - Improve verdict explanations and recommendations
 - Store analysis results and historical data in a database
 
+## ## Product Demo
 
-
-## Demo Video
-
-Watch the full product walkthrough here:
-
-[https://www.loom.com/share/74023f8a985e416db0b4c15203d1d80c](https://www.loom.com/share/74023f8a985e416db0b4c15203d1d80c)
-
+[Watch the Product Walkthrough]([https://www.loom.com/share/74023f8a985e416db0b4c15203d1d80c](https://www.loom.com/share/74023f8a985e416db0b4c15203d1d80c))
