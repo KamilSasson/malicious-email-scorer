@@ -1,0 +1,24 @@
+{
+    "timeZone": "Asia/Jerusalem",
+    "exceptionLogging": "STACKDRIVER",
+    "runtimeVersion": "V8",
+    "oauthScopes": [
+      "https://www.googleapis.com/auth/gmail.addons.execute",
+      "https://www.googleapis.com/auth/gmail.readonly",
+      "https://www.googleapis.com/auth/script.external_request"
+    ],
+    "urlFetchWhitelist": [
+      "https://upwind-bootcamp-backend.onrender.com/"
+    ],
+    "gmail": {
+      "name": "Malicious Email Scorer",
+      "logoUrl": "https://www.gstatic.com/images/branding/product/1x/gmail_2020q4_48dp.png",
+      "contextualTriggers": [
+        {
+          "unconditional": {},
+          "onTriggerFunction": "onGmailMessageOpen"
+        }
+      ],
+      "primaryColor": "#111111"
+    }
+  }
