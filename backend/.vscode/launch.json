@@ -5,7 +5,7 @@
       "type": "node",
       "name": "DebugMaliciousEmailScorer",
       "request": "launch",
-      "program": "${workspaceFolder}/src/server.js",
+      "program": "${workspaceFolder}/backend/src/server.js",
       "console": "integratedTerminal"
     },
     {
