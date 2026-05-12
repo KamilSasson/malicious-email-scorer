@@ -10,7 +10,7 @@ class AnalyzeEmailResponse {
     return new AnalyzeEmailResponse({
       score: 0,
       verdict: "Safe",
-      reasons: ["Contract is ready. Scoring engine will be added in the next step."],
+      reasons: ["No suspicious phishing signals were detected."],
       recommendation: "No immediate action needed."
     });
   }

@@ -14,5 +14,5 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(PORT, () => {
-  logger.info("Phishing backend started", { port: PORT, url: `http://localhost:${PORT}` });
+  logger.info("MaliciousEmailScorer started", { port: PORT, url: `http://localhost:${PORT}` });
 });

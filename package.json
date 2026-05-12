@@ -1,8 +1,8 @@
 {
-  "name": "phishing-backend-node",
+  "name": "malicious-email-scorer",
   "version": "0.1.0",
   "private": true,
-  "description": "Rule-based phishing detection backend (Node.js)",
+  "description": "MaliciousEmailScorer - rule-based email risk scoring API (Node.js)",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",

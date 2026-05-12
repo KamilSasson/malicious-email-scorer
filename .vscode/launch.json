@@ -3,7 +3,7 @@
   "configurations": [
     {
       "type": "node",
-      "name": "Debug Node API",
+      "name": "DebugMaliciousEmailScorer",
       "request": "launch",
       "program": "${workspaceFolder}/src/server.js",
       "console": "integratedTerminal"
