@@ -114,7 +114,9 @@ Gmail Add-on frontend built with Google Apps Script.
 - `code.gs` — Main add-on logic and Gmail integration
 - `appsscript.json` — Google Apps Script configuration
 
-## ## Setup & Run
+
+
+## Setup & Run
 
 ### Backend
 
@@ -169,7 +171,7 @@ const BACKEND_URL = "[https://upwind-bootcamp-backend.onrender.com/api/v1/analyz
 - Improve verdict explanations and recommendations
 - Store analysis results and historical data in a database
 
-## ## Demo Video
+## Demo Video
 
 Watch the full product walkthrough here:
 
