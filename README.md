@@ -160,26 +160,17 @@ const BACKEND_URL = "[https://upwind-bootcamp-backend.onrender.com/api/v1/analyz
 
 1. Deploy the add-on and connect it to a Gmail account
 
-## ## Future Improvements
+## Future Improvementes
 
 - Add AI/ML-based email analysis
-
 - Integrate an LLM (Large Language Model) layer to improve contextual understanding of email content
-
 - Detect more sophisticated phishing and social engineering attempts beyond static rules
-
 - Enhance verdict accuracy using a hybrid approach of rule-based detection and AI reasoning
-
 - Improve detection accuracy with additional threat signals
-
 - Add behavioral analysis for urgency, impersonation, and suspicious language patterns
-
 - Add real-time URL reputation checks
-
 - Support advanced attachment scanning
-
 - Improve verdict explanations and recommendations
-
 - Store analysis results and historical data in a database
 
 ## Demo Video
