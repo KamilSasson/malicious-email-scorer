@@ -176,7 +176,7 @@ const BACKEND_URL = "[https://upwind-bootcamp-backend.onrender.com/api/v1/analyz
 - Improve verdict explanations and recommendations
 - Store analysis results and historical data in a database
 
-## Demo Video
+## Demo
 
 Watch the full product walkthrough here:
 
