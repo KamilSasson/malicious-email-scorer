@@ -163,7 +163,7 @@ const BACKEND_URL = "[https://upwind-bootcamp-backend.onrender.com/api/v1/analyz
 ## Future Improvementes
 
 - Add AI/ML-based email analysis- Use of an AI-based algorithm can make the algorithm more dynamic by using models that can understand context, identify patterns, and detect new attack techniques.
-- Add a button to block future emails from the sender if the email is detected as malicious.
+- Add a user-controlled button to block future emails from the sender if the email is detected as malicious.
 - Add a button to report suspicious emails to Google to help prevent future attacks on other users.
 - Add KPI monitoring and internal review mechanisms to help measure detection accuracy, analyze high-risk emails, and improve future scoring and classification decisions.
 - Integrate an LLM (Large Language Model) layer to improve contextual understanding of email content
